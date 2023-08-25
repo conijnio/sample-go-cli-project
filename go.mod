@@ -1,4 +1,4 @@
-module github.com/conijnio/sample-go-cli-project/v2
+module github.com/conijnio/sample-go-cli-project
 
 go 1.20
 

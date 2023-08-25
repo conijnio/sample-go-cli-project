@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/conijnio/sample-go-cli-project/v2/pkg/core"
+	"github.com/conijnio/sample-go-cli-project/pkg/core"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"os"
