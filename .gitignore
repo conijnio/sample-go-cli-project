@@ -1,0 +1,6 @@
+dist/
+# Exclude IDE settings
+.idea
+
+# Output of the go test/coverage tool
+reports/
