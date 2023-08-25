@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/conijnio/golang-template/v2/pkg/core"
+	"github.com/conijnio/sample-go-cli-project/v2/pkg/core"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"os"
@@ -13,14 +13,14 @@ var (
 	Debug   bool
 
 	rootCmd = &cobra.Command{
-		Use:     "golang-template",
-		Short:   "golang-template - Sample cli tool implementation",
+		Use:     "sample-go-cli-project",
+		Short:   "sample-go-cli-project - Sample cli tool implementation",
 		Version: version,
 		PreRun:  toggleDebug,
-		Example: "golang-template",
+		Example: "sample-go-cli-project",
 		Run: func(cmd *cobra.Command, args []string) {
 			if len(args) > 0 && args[0] == "version" {
-				fmt.Printf("golang-template v%s\n", version)
+				fmt.Printf("sample-go-cli-project v%s\n", version)
 			} else {
 				err := core.MainRoutine()
 				if err != nil {

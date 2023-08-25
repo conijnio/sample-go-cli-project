@@ -1,4 +1,4 @@
-project_name: "golang-template"
+project_name: "sample-go-cli-project"
 
 # before are hooks that will be run before any builds are done, so good to put install scripts and stuff that your builds need here
 before:
@@ -13,17 +13,17 @@ signs:
 
 builds:
   - main: ./main.go
-    binary: golang-template
+    binary: sample-go-cli-project
     goos: ["linux", "darwin", "windows"]
     goarch: ["386", "amd64", "arm64"]
     ldflags:
-      - -s -w -X "github.com/conijnio/golang-template/cmd.version={{.Version}}"
+      - -s -w -X "github.com/conijnio/sample-go-cli-project/cmd.version={{.Version}}"
     env:
       - CGO_ENABLED=0
 
 nfpms:
-  - package_name: golang-template
-    homepage: https://github.com/conijnio/golang-template/
+  - package_name: sample-go-cli-project
+    homepage: https://github.com/conijnio/sample-go-cli-project/
     maintainer: Joris Conijn <joris@conijnonline.nl>
     description: |-
       Template for golang projects

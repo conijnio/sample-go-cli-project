@@ -1,12 +1,12 @@
-# Golang Template
+# Sample Go CLI Tool
 
-![Go Version](https://img.shields.io/github/go-mod/go-version/conijnio/golang-template)
+![Go Version](https://img.shields.io/github/go-mod/go-version/conijnio/sample-go-cli-project)
 [![License](https://img.shields.io/badge/License-Apache2-green.svg)](./LICENSE)
-[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/conijnio/golang-template/graphs/commit-activity)
-[![Workflow: go](https://github.com/conijnio/golang-template/actions/workflows/go.yml/badge.svg)](https://github.com/conijnio/golang-template/actions/workflows/go.yml)
-[![Workflow: goreleaser](https://github.com/conijnio/golang-template/actions/workflows/goreleaser.yml/badge.svg)](https://github.com/conijnio/golang-template/actions/workflows/goreleaser.yml)
-![Release](https://img.shields.io/github/v/release/conijnio/golang-template)
-[![Go Report Card](https://goreportcard.com/badge/github.com/conijnio/golang-template)](https://goreportcard.com/report/github.com/conijnio/golang-template)
+[![Maintenance](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/conijnio/sample-go-cli-project/graphs/commit-activity)
+[![Workflow: go](https://github.com/conijnio/sample-go-cli-project/actions/workflows/go.yml/badge.svg)](https://github.com/conijnio/sample-go-cli-project/actions/workflows/go.yml)
+[![Workflow: goreleaser](https://github.com/conijnio/sample-go-cli-project/actions/workflows/goreleaser.yml/badge.svg)](https://github.com/conijnio/sample-go-cli-project/actions/workflows/goreleaser.yml)
+![Release](https://img.shields.io/github/v/release/conijnio/sample-go-cli-project)
+[![Go Report Card](https://goreportcard.com/badge/github.com/conijnio/sample-go-cli-project)](https://goreportcard.com/report/github.com/conijnio/sample-go-cli-project)
 
 
 Template repository for Golang projects.
